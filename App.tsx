@@ -58,15 +58,15 @@ const width3 = width * 0.3
 
 //Main function
 export default function App() {
-  const [jacketColor, setJacketColor] = useState(global.colors[6]['color']);
+  const [jacketColor, setJacketColor] = useState(global.colors[7]['color']);
   const [sleeveColor, setSleeveColor] = useState(global.colors[4]['color']);
-  const [pocketColor, setPocketColor] = useState(global.colors[9]['color']);
-  const [buttonColor, setButtonColor] = useState(global.colors[9]['color']);
+  const [pocketColor, setPocketColor] = useState(global.colors[10]['color']);
+  const [buttonColor, setButtonColor] = useState(global.colors[10]['color']);
   const [hoodColor, setHoodColor] = useState(global.colors[7]['color']);
   const [hoodPatternColor, setHoodPatternColor] = useState(global.colors[3]['color']);
   const [primaryKnitColor, setPrimaryKnitColor] = useState(global.colors[0]['color']);
   const [secondaryKnitColor, setSecondaryKnitColor] = useState(global.colors[4]['color']);
-  const [accentKnitColor, setAccentKnitColor] = useState(global.colors[9]['color']);
+  const [accentKnitColor, setAccentKnitColor] = useState(global.colors[10]['color']);
   const [flipJacket, setFlipJacket] = useState(0);
   const [gender, setGender] = useState(0);
   const [currentPattern, setCurrentPattern] = useState(global.patterns[13]['pattern']);
@@ -218,6 +218,32 @@ export default function App() {
       </View>
       { hoodPatternColorPicker() }
       <View>
+          <Accordion
+          title={'Current Pattern: '}
+          colorName={currentPattern}
+          width={width3}
+          data={global.patterns.map((pattern, index) => {
+              return (
+                <TouchableOpacity
+                key={index}
+                onPress={() => {setCurrentPattern(pattern['pattern']);}}
+                >
+                  <KnitButton 
+                    key={index}
+                    pattern={pattern['pattern']}
+                    selectedPattern={currentPattern}
+                    width={70}
+                    height={70}
+                    fill={primaryKnitColor}
+                    fillSecondary={secondaryKnitColor}
+                    fillThird={accentKnitColor} 
+                    />
+                </TouchableOpacity>
+              )
+            })} 
+          />
+        </View>
+      <View>
         <Accordion
         title={'Primary Knit Color: '} 
         colorName={global.colors[global.colors.map(e => e.color).indexOf(primaryKnitColor)]['name']}
@@ -270,35 +296,10 @@ export default function App() {
           })}
           />
         </View>
-        <View>
-          <Accordion
-          title={'Current Pattern: '}
-          colorName={currentPattern}
-          width={width3}
-          data={global.patterns.map((pattern, index) => {
-              return (
-                <TouchableOpacity
-                key={index}
-                onPress={() => {setCurrentPattern(pattern['pattern']);}}
-                style={{margin: 2}}>
-                  <KnitButton 
-                    key={index}
-                    pattern={pattern['pattern']}
-                    selectedPattern={currentPattern}
-                    width={75}
-                    height={75}
-                    fill={primaryKnitColor}
-                    fillSecondary={secondaryKnitColor}
-                    fillThird={accentKnitColor} 
-                    />
-                </TouchableOpacity>
-              )
-            })} 
-          />
-        </View>
       </View>
-      <View style={styles.hr}></View>
-      <TouchableOpacity
+      
+      
+      </ScrollView><View style={styles.hr}></View><TouchableOpacity
         onPress={() => {
           if (gender === 0) {
             setGender(1);
@@ -312,7 +313,6 @@ export default function App() {
             swap gender
           </Text>
         </TouchableOpacity>
-      </ScrollView>
       </Surface>
       {/* Right Container -> School Name -> Jacket -> Jacket Swap Button */}
       <Surface style={styles.rightContainer}>
@@ -372,7 +372,7 @@ const styles = StyleSheet.create({
   //Left Container
   leftContainer: {
     flex: 3,
-    backgroundColor: '#ffffff'
+    backgroundColor: '#ffffff',
   },
   //Right Container
   rightContainer: {

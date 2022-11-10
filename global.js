@@ -5,20 +5,24 @@
       name: 'Black 51',
     },
     {
-      color: '#002D62',
-      name: '62 Dark Navy',
+      color: '#030F4B',
+      name: 'Dark Navy'
     },
     {
       color: '#4E2A84',
       name: 'NW Purple 37',
     },
     {
-      color: '#015D29',
+      color: '#00451E',
       name: 'Forest Green 67',
     },
     {
       color: '#144F78',
       name: '6N Navy/Light Navy',
+    },
+    {
+      color: '#590F2A',
+      name: 'Maroon 59',
     },
     {
       color: '#DD254B',
@@ -29,7 +33,11 @@
       name: 'Vegas Gold 43',
     },
     {
-      color: '#D1D9E0',
+      color: '#BA9704',
+      name: 'Buck Tan 14',
+    },
+    {
+      color: '#71767A',
       name: 'Grey 58',
     },
     {
@@ -90,16 +98,15 @@
   global.schoolList = [
     {
       name: 'Custom',
-      mainColor: '#002D62',
-      primaryColors: ['#002D62', '#F7F4F5', '#061421'],
-      allColors: ['#002D62', '#F7F4F5', '#061421', '#F7F4F5', '#061421', '#002D62', '#061421', '#F7F4F5', '#002D62']
-
+      mainColor: '#030F4B',
+      primaryColors: ['#030F4B', '#F7F4F5', '#061421'],
+      allColors: ['#030F4B', '#F7F4F5', '#061421', '#F7F4F5', '#061421', '#030F4B', '#061421', '#F7F4F5', '#030F4B']
     },
     {
-      name: 'Loganville_High',
-      mainColor: '#DD254B',
-      primaryColors: ['#DD254B', '#061421', '#F7F4F5'],
-      allColors: ['#DD254B', '#061421', '#061421', '#061421', '#061421', '#DD254B', '#DD254B', '#F7F4F5', '#061421']
+      name: 'Apalachee_High',
+      mainColor: '#030F4B',
+      primaryColors: ['#030F4B', '#F7F4F5', '#E2C888'],
+      allColors: ['#030F4B', '#F7F4F5', '#F7F4F5', '#F7F4F5', '#E2C888', '#030F4B', '#030F4B', '#E2C888', '#F7F4F5']
     },
     {
       name: 'George_Walton',
@@ -108,16 +115,22 @@
       allColors: ['#061421', '#F7F4F5', '#F7F4F5', '#F7F4F5', '#061421', '#DD254B', '#061421', '#DD254B', '#F7F4F5']
     },
     {
-      name: 'Loganville_Christian',
-      mainColor: '#061421',
-      primaryColors: ['#061421', '#E2C888', '#F7F4F5'],
-      allColors: ['#061421', '#E2C888', '#E2C888', '#E2C888', '#E2C888', '#061421', '#061421', '#E2C888', '#F7F4F5']
+      name: 'Grayson',
+      mainColor: '#E2C888',
+      primaryColors: ['#E2C888', '#00451E', '#F7F4F5'],
+      allColors: ['#00451E', '#E2C888', '#E2C888', '#E2C888', '#00451E', '#E2C888', '#00451E', '#F7F4F5', '#E2C888', ]
     },
     {
-      name: 'Apalachee_High',
-      mainColor: '#061421',
-      primaryColors: ['#061421', '#F7F4F5', '#E2C888'],
-      allColors: ['#061421', '#F7F4F5', '#F7F4F5', '#F7F4F5', '#E2C888', '#061421', '#061421', '#E2C888', '#F7F4F5']
+      name: 'Loganville_Christian',
+      mainColor: '#030F4B',
+      primaryColors: ['#030F4B', '#E2C888', '#F7F4F5'],
+      allColors: ['#030F4B', '#E2C888', '#E2C888', '#E2C888', '#E2C888', '#030F4B', '#030F4B', '#E2C888', '#F7F4F5']
+    },
+    {
+      name: 'Loganville_High',
+      mainColor: '#DD254B',
+      primaryColors: ['#DD254B', '#061421', '#F7F4F5'],
+      allColors: ['#DD254B', '#061421', '#061421', '#061421', '#061421', '#DD254B', '#DD254B', '#F7F4F5', '#061421']
     },
     {
       name: 'Monroe_Area_High',
@@ -126,22 +139,22 @@
       allColors: ['#4E2A84', '#061421', '#F7F4F5', '#F7F4F5', '#061421', '#4E2A84', '#4E2A84', '#F7F4F5', '#061421']
     },
     {
-      name: 'Walnut_Grove_High',
-      mainColor: '#015D29',
-      primaryColors: ['#015D29', '#061421', '#F7F4F5'],
-      allColors: ['#015D29', '#F7F4F5', '#F7F4F5', '#F7F4F5', '#015D29', '#061421', '#061421', '#F7F4F5', '#015D29']
-    },
-    {
-      name: 'Grayson',
-      mainColor: '#E2C888',
-      primaryColors: ['#E2C888', '#015D29', '#144F78'],
-      allColors: ['#015D29', '#E2C888', '#F7F4F5', '#F7F4F5', '#E2C888', '#144F78', '#144F78', '#E2C888', '#015D29', ]
-    },
-    {
       name: 'Trinity_Prep_School',
       mainColor: '#E2C888',
       primaryColors: ['#E2C888', '#061421', '#F7F4F5'],
       allColors: ['#E2C888', '#061421', '#061421', '#F7F4F5', '#061421', '#E2C888', '#E2C888', '#F7F4F5', '#061421']
+    },
+    {
+      name: 'Tucker_High',
+      mainColor: '#590F2A',
+      primaryColors: ['#590F2A', '#BA9704', '#F7F4F5'],
+      allColors: ['#590F2A', '#BA9704', '#BA9704', '#BA9704', '#590F2A', '#BA9704', '#590F2A', '#F7F4F5', '#BA9704']
+    },
+    {
+      name: 'Walnut_Grove_High',
+      mainColor: '#00451E',
+      primaryColors: ['#00451E', '#061421', '#F7F4F5'],
+      allColors: ['#00451E', '#F7F4F5', '#F7F4F5', '#F7F4F5', '#00451E', '#061421', '#061421', '#F7F4F5', '#00451E']
     },
   ];
 

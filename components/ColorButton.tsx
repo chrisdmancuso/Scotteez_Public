@@ -27,18 +27,18 @@ const styles = StyleSheet.create({
     colorBtn: {
         width: '100%',
         height: '100%',
-        borderRadius: 15
+        borderRadius: 20
       },
       btnCover: {
         padding: 2,
-        width: 30,
-        height: 30,
-        borderRadius: 15,
-        marginRight: 2
+        width: 35,
+        height: 35,
+        borderRadius: 20,
+        margin: 2
       },
       selected: {
         borderWidth: 2,
-        borderRadius: 15
+        borderRadius: 20
       }
 })
 

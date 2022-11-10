@@ -69,7 +69,7 @@ export default class Accordion extends Component {
             flexDirection: 'row',
             alignItems: 'center',
             flexWrap: 'wrap',
-            justifyContent: 'space-between',
+            justifyContent: 'flex-start',
             width: '100%',
             backgroundColor: '#ffffff'
          }

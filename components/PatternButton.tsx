@@ -40,7 +40,7 @@ export default function Patterns(props) {
     return (
         <Surface style={[isSelected ? styles.selected: styles.notSelected]}>
             <PatternList 
-            style={{borderWidth: 2, borderRadius: 5}} 
+            style={{borderWidth: 2}} 
             width={props.width} 
             height={props.height} 
             fill={props.fill} 
@@ -52,12 +52,11 @@ export default function Patterns(props) {
 
 const styles = StyleSheet.create({
     selected: {
-        borderWidth: 2,
+        borderWidth: 3,
         borderRadius: 5,
         padding: 1,
-
     },
     notSelected: {
-        borderRadius: 2,
+        margin: 4
     }
 })
