@@ -9,6 +9,10 @@
       name: 'Dark Navy'
     },
     {
+      color: "#072369",
+      name: "Royal 72"
+    }, 
+    {
       color: '#4E2A84',
       name: 'NW Purple 37',
     },
@@ -47,7 +51,7 @@
     {
       color: '#FDFEFF',
       name: 'Optic White',
-    }
+    },
   ]
 
   global.patterns = [
@@ -156,6 +160,12 @@
       primaryColors: ['#00451E', '#061421', '#F7F4F5'],
       allColors: ['#00451E', '#F7F4F5', '#F7F4F5', '#F7F4F5', '#00451E', '#061421', '#061421', '#F7F4F5', '#00451E']
     },
+    {
+      name : 'Scholars_Guild_Academy',
+      mainColor: '#072369',
+      primaryColors : ['#072369', '#F7F4F5', '#061421'],
+      allColors: ['#072369', '#F7F4F5', '#71767A', '#71767A', '#061421', '#71767A', '#061421', '#71767A', '#072369']
+    }
   ];
 
   global.modelList = [

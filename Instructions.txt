@@ -1,0 +1,32 @@
+Scholars Guild Academy
+Royal 72 (Royal blue #72?) #0A2978 rgb(10, 41, 120)
+White (Prob White 56)
+Grey (Prob Grey 58)
+Black (Black 51)
+
+Color default options
+1)
+Jacket - Royal 72
+Sleeve - White 56
+Pocket - White 56
+Button - White 56
+Hood - Black 51
+Hood Pattern - Grey 58
+Primary Knit - Black 51
+Secondary Knit - Grey 58
+Accent Knit - White 56
+
+2) I like this one better, but need to hear from Caleb about 1) primary colors and 2) if royal 72 is blue, also 3) if he likes the color (if it is royal 72)
+Jacket - Black 51
+Sleeve - White 56
+Pocket - Grey 58
+Button - Grey 58
+Hood - Grey 58
+Hood Pattern - Royal 72
+Primary Knit - Royal 72
+Secondary Knit - White 56
+Accent Knit - Grey 58
+
+npx expo start
+
+eas build --profile preview --platform ios
