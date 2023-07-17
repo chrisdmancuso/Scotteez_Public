@@ -13,6 +13,10 @@
       name: "Royal 72"
     }, 
     {
+      color : '#003893',
+      name : 'Royal 27'
+    },
+    {
       color: '#4E2A84',
       name: 'NW Purple 37',
     },
@@ -31,6 +35,10 @@
     {
       color: '#DD254B',
       name: 'Scarlet 69',
+    },
+    {
+      color : '#FF6600',
+      name: 'Orange'
     },
     {
       color: '#E2C888',
@@ -52,6 +60,7 @@
       color: '#FDFEFF',
       name: 'Optic White',
     },
+    //Index 13
   ]
 
   global.patterns = [
@@ -165,6 +174,12 @@
       mainColor: '#072369',
       primaryColors : ['#072369', '#F7F4F5', '#061421'],
       allColors: ['#072369', '#F7F4F5', '#71767A', '#71767A', '#061421', '#71767A', '#061421', '#71767A', '#072369']
+    },
+    {
+      name : 'Park_View_High_School',
+      mainColor : '#FF6600',
+      primaryColors : ['#FF6600', '#003893', '#F7F4F5'],
+      allColors : ['#FF6600', '#F7F4F5', '#F7F4F5', '#F7F4F5', '#003893', '#FF6600', '#FF6600', '#F7F4F5', '#003893']
     }
   ];
 

@@ -58,15 +58,15 @@ const width3 = width * 0.3
 
 //Main function
 export default function App() {
-  const [jacketColor, setJacketColor] = useState(global.colors[8]['color']);
-  const [sleeveColor, setSleeveColor] = useState(global.colors[5]['color']);
-  const [pocketColor, setPocketColor] = useState(global.colors[11]['color']);
-  const [buttonColor, setButtonColor] = useState(global.colors[11]['color']);
-  const [hoodColor, setHoodColor] = useState(global.colors[8]['color']);
-  const [hoodPatternColor, setHoodPatternColor] = useState(global.colors[4]['color']);
+  const [jacketColor, setJacketColor] = useState(global.colors[10]['color']);
+  const [sleeveColor, setSleeveColor] = useState(global.colors[6]['color']);
+  const [pocketColor, setPocketColor] = useState(global.colors[13]['color']);
+  const [buttonColor, setButtonColor] = useState(global.colors[13]['color']);
+  const [hoodColor, setHoodColor] = useState(global.colors[10]['color']);
+  const [hoodPatternColor, setHoodPatternColor] = useState(global.colors[5]['color']);
   const [primaryKnitColor, setPrimaryKnitColor] = useState(global.colors[0]['color']);
-  const [secondaryKnitColor, setSecondaryKnitColor] = useState(global.colors[5]['color']);
-  const [accentKnitColor, setAccentKnitColor] = useState(global.colors[11]['color']);
+  const [secondaryKnitColor, setSecondaryKnitColor] = useState(global.colors[6]['color']);
+  const [accentKnitColor, setAccentKnitColor] = useState(global.colors[13]['color']);
   const [flipJacket, setFlipJacket] = useState(0);
   const [gender, setGender] = useState(0);
   const [currentPattern, setCurrentPattern] = useState(global.patterns[13]['pattern']);

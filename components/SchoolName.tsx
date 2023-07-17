@@ -29,7 +29,7 @@ const SchoolName = (props) => {
     currentContext.setPrimaryKnitColor(colorList[6]);
     currentContext.setSecondaryKnitColor(colorList[7]);
     currentContext.setAccentKnitColor(colorList[8]);
-    if (name == 'Grayson' || name == 'Tucker_High') {
+    if (name == 'Grayson' || name == 'Tucker_High' || name == 'Park_View_High_School') {
       currentContext.setCurrentPattern('Pattern2');
     } else {
       currentContext.setCurrentPattern('PatternA');
